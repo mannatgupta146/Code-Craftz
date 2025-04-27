@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Glroy';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 html,body{
@@ -23,7 +24,7 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3vw;
+    padding: 0 5vw;
 }
 
 .nav2{
@@ -50,7 +51,45 @@ html,body{
 .content{
     height: calc(100% - 100px);
     width: 100%;
-    background-color: aquamarine;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 55%;
+    padding: 4vw 5vw;
+}
+
+.left h1{
+    font-size: 3vw;
+    line-height: 4.2vw;
+}
+
+.left h1 span{
+    color: lightseagreen;
+}
+
+.left p{
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #666;
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 3vw;
+}
+
+button{
+    font-size: 1.2vw;
+    padding: 1.3vw 2.1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    color: #fff;
+}
+
+.right{
+    height: 100%;
+    width: 45%;
 }
 
 @media(max-width:600px){
