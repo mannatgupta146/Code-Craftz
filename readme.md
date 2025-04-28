@@ -40,8 +40,7 @@ Follow the steps below to get the project running on your local machine:
     ```
 
 3. **Open the project**:
-    - Open the `index.html` file in any web browser to view the landing page.
-    - Alternatively, use a local server setup to run the project.
+Open the `index.html` file in any web browser to view the landing page.
 
 ## How It Works
 
