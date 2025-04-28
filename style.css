@@ -158,7 +158,7 @@ html,body{
     }
 
     .left p{
-        font-size: 4vw;
+        font-size: 3.35vw;
         width: 90%;
         margin-top: 5vw;
         margin-bottom: 5vw;
@@ -168,5 +168,19 @@ html,body{
     .right{
         width: 100%;
         height: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .right button{
+        margin-bottom: 1vw; 
+    }
+
+    .right img{
+        height: 95%;
+        width: 85%;
+        margin-left: 5vw;
+        margin-top: 2vw;  
     }
 }
